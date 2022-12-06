@@ -150,10 +150,10 @@ this.physics.add.overlap(this.player,this.health,this.collecthealth,null,this)
 
   update() {
 
-    if (this.player.x > 465 && this.player.x < 494 && this.player.y > 330 && this.player.y < 345) {
-      console.log("Jump to level1")
-      this.level1();
-    }
+//     if (this.player.x > 465 && this.player.x < 494 && this.player.y > 330 && this.player.y < 345) {
+//       console.log("Jump to level1")
+//       this.level1();
+//     }
 
     if (this.player.x > 183 && this.player.x < 227 && this.player.y > 759.8 && this.player.y < 765) {
       console.log("Jump to level2")
