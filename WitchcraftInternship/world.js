@@ -390,12 +390,12 @@ this.physics.add.overlap(this.player,this.health,this.collecthealth,null,this)
     this.scene.start("world", {player: this.player});
   }
 
-  level1(player,tile){
-    console.log("level1 function");
-    this.player.x= 382;
-    this.player.y=602;
-    this.scene.start("level1", {player: this.player});
-  }
+//   level1(player,tile){
+//     console.log("level1 function");
+//     this.player.x= 382;
+//     this.player.y=602;
+//     this.scene.start("level1", {player: this.player});
+//   }
 
   level2(player,tile){
     console.log("level2 function");
