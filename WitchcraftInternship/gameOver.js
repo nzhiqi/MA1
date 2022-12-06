@@ -20,19 +20,19 @@ class gameOver extends Phaser.Scene {
       
       spaceDown.on('down', function(){
       this.scene.stop("gameOver");
-      this.scene.start("level1");
+      this.scene.start("world");
       }, this );
 
       this.loseSnd.play();
 
   
-      enterDown.on('down', function(){
-        console.log("skip tutorial");
-        this.player = {};
-        this.player.x= 489;
-        this.player.y=378;
-        this.scene.start("world", {player: this.player});
-        }, this );
+//       enterDown.on('down', function(){
+//         console.log("skip tutorial");
+//         this.player = {};
+//         this.player.x= 489;
+//         this.player.y=378;
+//         this.scene.start("world", {player: this.player});
+//         }, this );
   
   }
     
