@@ -15,7 +15,7 @@ var config = {
     },
     backgroundColor: '#D0BE9C',
     pixelArt: true,
-    scene: [preload, s1, s2, s3, s4, s5, s6, s7, level1, world, level2, level3, level4, gameOver, winningScene]
+    scene: [preload, s1, s2, s3, s4, s5, s6, s7, world, level2, level3, level4, gameOver, winningScene]
 };
 
 var game = new Phaser.Game(config);
