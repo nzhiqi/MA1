@@ -21,18 +21,18 @@ class winningScene extends Phaser.Scene {
       
       spaceDown.on('down', function(){
       this.scene.stop("winningScene");
-      this.scene.start("level1");
+      this.scene.start("world");
       }, this );
 
       this.winSnd.play();
   
-      enterDown.on('down', function(){
-        console.log("skip tutorial");
-        this.player = {};
-        this.player.x= 489;
-        this.player.y=378;
-        this.scene.start("world", {player: this.player});
-        }, this );
+//       enterDown.on('down', function(){
+//         console.log("skip tutorial");
+//         this.player = {};
+//         this.player.x= 489;
+//         this.player.y=378;
+//         this.scene.start("world", {player: this.player});
+//         }, this );
   
   }
     
